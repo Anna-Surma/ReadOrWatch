@@ -58,33 +58,12 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
-            <TextView
-                android:id="@+id/forgotPassText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/passwordTextInputLayout"
-                android:layout_marginStart="@dimen/loginMarginHorizontal"
-                android:layout_marginTop="@dimen/loginPasswordTextMarginTop"
-                android:fontFamily="@font/inter"
-                android:text="@string/forgotPasswordText"
-                android:textColor="@color/green"
-                android:textSize="@dimen/loginPasswordTextSize" />
-
-            <TextView
-                android:id="@+id/emailHasBeenSentText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/forgotPassText"
-                android:layout_marginStart="@dimen/loginMarginHorizontal"
-                android:text="@string/emailHasBeenSent"
-                android:visibility="invisible" />
-
             <Button
                 android:id="@+id/signInButton"
                 android:layout_marginHorizontal="@dimen/loginMarginHorizontal"
                 android:text="@string/signInButtonText"
                 app:cornerRadius="@dimen/detailsWatchButtonCornerRadius"
-                android:layout_below="@+id/forgotPassText"
+                android:layout_below="@+id/passwordTextInputLayout"
                 android:layout_marginTop="@dimen/loginPasswordTextMarginTop"
                 style="@style/logInUpButton"/>
 

@@ -1,4 +1,4 @@
-package com.intive.patronage22.intivi
+package com.example.readorwatch
 
 import org.junit.Test
 

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="header_height">72dp</dimen>
-    <dimen name="header_text_size">24sp</dimen>
-    <dimen name="mainOuterLayoutPaddingTop">40dp</dimen>
-    <dimen name="patronage_logo_height">35dp</dimen>
-    <dimen name="patronage_logo_padding">3dp</dimen>
+    <dimen name="headerBarPaddingTop">32dp</dimen>
+    <dimen name="choiceTextSize">30sp</dimen>
+    <dimen name="choiceImageSize">150sp</dimen>
 
-    <dimen name="detailsPhotoHeight">620dp</dimen>
     <dimen name="detailsLayoutHeight">296dp</dimen>
     <dimen name="detailsStartMargin">16dp</dimen>
     <dimen name="detailsTitleTopMargin">20dp</dimen>
@@ -14,20 +12,14 @@
     <dimen name="detailsLineHeight">20dp</dimen>
     <dimen name="detailsInfoTopMargin">52dp</dimen>
     <dimen name="detailsInfoTextSize">14sp</dimen>
-    <dimen name="detailsDescriptionTextHeight">80dp</dimen>
     <dimen name="detailsDescriptionMarginTop">96dp</dimen>
     <dimen name="detailsWatchButtonCornerRadius">12dp</dimen>
 
-    <dimen name="details_screen_toolbar_height">52dp</dimen>
-    <dimen name="details_screen_toolbar_margin_top">20dp</dimen>
-    <dimen name="toolbar_circle_width">32dp</dimen>
-    <dimen name="toolbar_circle_margin_left_right">16dp</dimen>
-    <dimen name="toolbar_circle_margin_top">12dp</dimen>
-    <dimen name="toolbar_back_arrow_padding">4dp</dimen>
-    <dimen name="toolbar_heart_icon_padding">6dp</dimen>
-    <dimen name="app_logo_height">32dp</dimen>
-    <dimen name="app_name_margin_start">4dp</dimen>
-    <dimen name="app_logo_margin_start">12dp</dimen>
+    <dimen name="detailsScreenToolbarHeight">52dp</dimen>
+    <dimen name="detailsScreenToolbarMarginTop">20dp</dimen>
+    <dimen name="appLogoHeight">32dp</dimen>
+    <dimen name="appNameMarginStart">4dp</dimen>
+    <dimen name="appLogoMarginStart">12dp</dimen>
 
     <dimen name="inputTextPaddingHorizontal">20dp</dimen>
     <dimen name="inputTextPaddingVertical">24dp</dimen>
@@ -39,31 +31,8 @@
     <dimen name="tabLayoutWidth">250dp</dimen>
     <dimen name="tabLayoutMarginTop">48dp</dimen>
     <dimen name="tabIndicatorHeight">2dp</dimen>
+    <dimen name="titleTextSize">14dp</dimen>
 
-    <dimen name="movieHeigh">230px</dimen>
-    <dimen name="movieWidth">140px</dimen>
-    <dimen name="titleHeigh">40px</dimen>
-    <dimen name="titleWidth">100px</dimen>
-    <dimen name="titleLineHeight">20px</dimen>
-    <dimen name="titlePadding">8px</dimen>
-    <dimen name="titleFontWeight">600</dimen>
-    <dimen name="titleTextSize">14px</dimen>
-    <dimen name="favoritiesWidth">13.33px</dimen>
-    <dimen name="favoritiesHeight">11.33px</dimen>
-    <dimen name="favoritiesMargin">15px</dimen>
-    <dimen name="favoritiesPaddingLeft">1.33px</dimen>
-    <dimen name="favoritiesPaddingTop">2.33px</dimen>
-    <dimen name="favoritiesPaddingRight">1.33px</dimen>
-    <dimen name="favoritiesPaddingBottom">2.33px</dimen>
-
-    <dimen name="editTextHeight">72dp</dimen>
-    <dimen name="videoPlayerMarginHorizontal">21dp</dimen>
-    <dimen name="videoPlayerMarginTop">18dp</dimen>
     <dimen name="videoPlayerStartMargin">32dp</dimen>
-    <dimen name="VideoPlayerMarginBottom">17dp</dimen>
-    <dimen name="scrubBarGreenWidth">140dp</dimen>
-    <dimen name="scrubBarMarginBottom">4dp</dimen>
-    <dimen name="VideoPlayerTimeTextSize">12sp</dimen>
-    <dimen name="header_bar_padding_top">32dp</dimen>
-    <dimen name="header_bar_item_padding_bottom">8dp</dimen>
+
 </resources>

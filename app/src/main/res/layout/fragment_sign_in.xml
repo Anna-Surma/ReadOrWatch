@@ -13,7 +13,7 @@
 
         <RelativeLayout
               android:layout_width="match_parent"
-              android:layout_height="match_parent"
+              android:layout_height="wrap_content"
               tools:layout_editor_absoluteX="-39dp"
               tools:layout_editor_absoluteY="-134dp">
 
@@ -63,27 +63,6 @@
                 style="@style/inputText"/>
 
         </com.google.android.material.textfield.TextInputLayout>
-
-          <TextView
-              android:id="@+id/forgotPassText"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_below="@+id/passwordTextInputLayout"
-              android:layout_marginStart="@dimen/loginMarginHorizontal"
-              android:layout_marginTop="@dimen/loginPasswordTextMarginTop"
-              android:fontFamily="@font/inter"
-              android:text="@string/forgotPasswordText"
-              android:textColor="@color/green"
-              android:textSize="@dimen/loginPasswordTextSize" />
-
-          <TextView
-              android:id="@+id/emailHasBeenSentText"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_below="@+id/forgotPassText"
-              android:layout_marginStart="@dimen/loginMarginHorizontal"
-              android:text="@string/emailHasBeenSent"
-              android:visibility="invisible" />
 
         </RelativeLayout>
 
